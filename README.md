@@ -1,17 +1,17 @@
 # Building a Data Diode - Switch Configs
 
-![](network-diagram.png?raw=true "Data Diode Network Diagram")
+![](img/network-diagram.png?raw=true "Data Diode Network Diagram")
 
-The data diode was constructed as shown above between two Cisco switches. The following read in conjunction with the provided configuration files shows a snapshot of their status at the point we were able to demonstrate successful unidirectional networking.
+The data diode was constructed as shown above between two Cisco switches by [mitcdh](https://github.com/mitcdh), [alancowie](https://github.com/alancowie), and networking friends. The switches were chosen as an easy media converter for connecting multiple UTP on each side to test and develop routed unidirectional networking tools but with a similar fibre interface setup the configuration should be portable to other platforms.
 
 ### Configuration
 
-* [Highside Switch](Highside Switch.conf)
-* [Lowside Switch](Lowside Switch.conf)
+* [Highside Switch](conf/high.conf)
+* [Lowside Switch](conf/low.conf)
 
 ### Interfaces
 
-![](network-cabling.jpg?raw=true "Data Diode Physical Cabling")
+![](img/network-cabling.jpg?raw=true "Data Diode Physical Cabling")
 
 #### Highside Switch
 
@@ -57,7 +57,7 @@ C        10.3.0.0/30 is directly connected, TenGigabitEthernet1/1/4
 L        10.3.0.1/32 is directly connected, TenGigabitEthernet1/1/4
 ````
 
-### Lowside Switch
+#### Lowside Switch
 
 ````
 low>sh int status
