@@ -4,6 +4,11 @@
 
 The data diode was constructed as shown above between two Cisco switches. The following read in conjunction with the provided configuration files shows a snapshot of their status at the point we were able to demonstrate successful unidirectional networking.
 
+### Configuration
+
+* [Highside Switch](Highside Switch.conf)
+* [Lowside Switch](Lowside Switch.conf)
+
 ### Interfaces
 
 ![](network-cabling.jpg?raw=true "Data Diode Physical Cabling")
