@@ -6,7 +6,7 @@ The data diode was constructed as shown above between two Cisco switches. The fo
 
 ### Interfaces
 
-![](network-cabling.png?raw=true "Data Diode Physical Cabling")
+![](network-cabling.jpg?raw=true "Data Diode Physical Cabling")
 
 #### Highside Switch
 
